@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId = "org.demre.certificacion"
-        minSdk = 25
+        minSdk = 27
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"

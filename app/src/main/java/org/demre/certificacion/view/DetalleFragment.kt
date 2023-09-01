@@ -48,10 +48,10 @@ class DetalleFragment : Fragment() {
     ) {
         binding.tvNombreDetalle.text = heroeDetalle.nombre
         binding.ivImagenDetalle.load(heroeDetalle.imagenLink)
-        binding.tvOrigen.text = heroeDetalle.origen
-        binding.tvPoder.text = heroeDetalle.poder
-        binding.tvCreacion.text = heroeDetalle.creacion.toString()
-        binding.tvColor.text = heroeDetalle.color
+        binding.tvOrigen.text = getString(R.string.origen, heroeDetalle.origen)
+        binding.tvPoder.text = getString(R.string.poder, heroeDetalle.poder)
+        binding.tvCreacion.text = getString(R.string.creacion, heroeDetalle.creacion.toString())
+        binding.tvColor.text = getString(R.string.color, heroeDetalle.color)
         binding.tvTraduccion.text =
             getString(if (heroeDetalle.traduccion) R.string.con_traduccion else R.string.sin_traduccion)
     }
