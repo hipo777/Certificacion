@@ -1,6 +1,18 @@
 <resources>
     <string name="app_name">Prueba Certificación</string>
     <!-- TODO: Remove or change this placeholder text -->
-
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sinDescripcion">SIN</string>
+    <string name="contactar_area_de_ventas">Contactar para votación</string>
+    <string name="imagen_del_detalle">Imagen del detalle</string>
+    <string name="origen">Sin origen</string>
+    <string name="poder">Sin poder</string>
+    <string name="creacion">1993</string>
+    <string name="color">Blanco</string>
+    <string name="traduccion">Con traducción</string>
+    <string name="super_heroe">LLANERO SOLITARIO</string>
+    <string name="con_traduccion">Cuenta con traducción al español</string>
+    <string name="sin_traduccion">Sin traducción</string>
+    <string name="email_body_template">Hola\n\nQuiero que el siguiente super héroe %1$s aparezca, en la nueva edición de biografías animadas. \nNúmero contacto:___________\n\nGracias.</string>
 
 </resources>
